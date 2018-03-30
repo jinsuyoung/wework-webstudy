@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>I111I</title>
+    <style>
+
+p {
+    font-size: 48px;
+    font-family: Arial;
+    color: brown;
+}
+
+div {
+    width: 330px;
+    height: 100px;
+    border-left: 3px solid black;
+    border-top: 3px solid orange;
+    border-bottom : 3px solid blue;
+    border-right : 3px solid brown;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    background-color: green;
+}
+body{
+    height: 2000px;
+
+}
+static{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    position: static;
+
+}
+fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+
+
+
+
+}
+relative{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+    body {margin: 9%;}
+    container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        border-bottom: 1px solid gray;
+        padding-left: 20px;  
+    }
+    footer{
+        border-top: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+    }
+    content {
+        display: flex;
+    }
+    content nav {
+        border-right: 1px solid gray;
+
+    }
+    content main {
+        flex-grow: 1;
+    }
+    nav{
+        flex-basis: 250px;
+    }
+    nav,main{
+        padding: 10px;
+    }
+
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>BLOG</h1>
+    </header>
+    <section class="content">
+        <nav>
+            <ul>
+                <li>이름 : 진수영</li>
+                <li>나이 : 19</li>
+                <li>출생지 : 서울</li>
+            </ul>
+        </nav>
+            <main>
+                102030405060708090
+            </main>
+    </section>
+
+    <footer>
+        <a>mail : jinsy7722@naver.com</a>
+    </footer>
+</div>
+<div>------------------------</div>
+    
+
+</body>
+</html>
